@@ -30,10 +30,6 @@
 		"C_CAN_LOCKON_TARGET": 3,
 		"C_HIT_USER_PROJECTILE": 4,
 		"C_NOTIFY_LOCATION_IN_ACTION": 4,
-		//	4 Commented out as not available in 46.05
-			//, 
-			// "c_notify_location_in_dash"
-		//],
 		"C_NOTIFY_LOCATION_IN_DASH": 4,
 		"C_NOTIMELINE_SKILL": 3,
 		"C_PLAYER_LOCATION": 5,
