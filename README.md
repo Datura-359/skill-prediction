@@ -1,4 +1,4 @@
-## Skill Prediction
+## Datura's Skill Prediction Fork for TERA 46.05
 Simulates skills client-side, eliminating ping-based delays and animation lock.
 
 **Note**: Skill Prediction does **not** reduce your actual ping to the server. If you wish to have lower ping in general, consider renting an optimized gaming VPN such as [Mudfish](https://mudfish.net/), [Pingzapper](https://pingzapper.com/) or [WTFast](https://www.wtfast.com/) or different ones.
