@@ -72,6 +72,7 @@
         "S_GRANT_SKILL": 3,
         "S_INSTANT_DASH": 3,
         "S_INSTANT_MOVE": 3,
+        "S_INVEN": 17,
         "S_LOAD_TOPO": "raw",
         "S_LOGIN": [
             "raw",
