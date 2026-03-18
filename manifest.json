@@ -1,101 +1,101 @@
 {
-	"files": {
-        "LICENSE": "589ed823e9a84c56feb95ac58e7cf384626b9cbf4fda2a907bc36e103de1bad2",
-        "README.md": "5915b7ac329f14747cd27a03e13efd07f2c5b5196e6383683f5b84339d4657bf",
+    "files": {
+        "LICENSE": "53927bd0b739d38c87a0a82236fd9b070c2dfff11c0c119be50372005d5047ad",
+        "README.md": "71a39d55a4647ed6876e7d346c511c7e570684fdb9cd796c8970c9860768332a",
         "client_data/abnormality.json": "71460d2dd7f883b084749bc42ee48738f4e96797fb8d500fc9bf54ab14b23b63",
         "client_data/ep.json": "fd9467797ac467443ab4e044da8c655c198f6e742d7d67cef5aec44d6c54a50f",
-        "client_data/ep_pog.json": "168471f2ca08aa8b8473f139ec9cf24403d07270bbe93f40a69f97fe197ce8aa",
+        "client_data/ep_pog.json": "32756d862e8b30a5925952c0f0f8f5ae7f6938b54a8886f89e274dc80508371d",
         "client_data/noctan.json": "b7bf4bc91a06ee3563fd839622551894070e8d3d987973e07bbe7c9a71a4b5b3",
         "client_data/passivity.json": "0b0f2c6fde06e73487906cc6ba9841b3002ec39dab5d624945a25d5f80ea9ad3",
         "client_data/polishing.json": "d50a77e5763c40f12e03ce5e47b8ca64ecfc0d8aa8a552e9775764f2e1057016",
-        "client_data/skills.json": "11add93ccab6043aaa5bef0fb7133f5e6df5da14928efccd34d0fd4436c69482",
+        "client_data/skills.json": "7d7d4ff01fa8320193e6ce7e919a0649ab64abb1d464899d3c119154b51e5575",
         "client_data/subPassives.json": "6ad08f8894b4f499ce16801d8072e6923da01834def41c0a9b0f482a48c004a1",
-        "config/abnormalities.js": "8f5f7dc2b58e78e0d2842bf994232ce772c6e397c478a5a52df6b1f369ce93bc",
-        "config/skills.js": "f7c5fc3ac7df0d5376e5db7d6f29d1192584a840bd1650bc0e35426991149749",
-        "lib/abnormalities.js": "a4081c1c49ed5a3421d2b086ee5f6e4efbc75a7533091894ddb671ee8d85873e",
-        "lib/commands.js": "88ad8919eb166a7cd0cba4aae9a3c2981219f45f486f97a4ec63d4ef48feb095",
-        "lib/cooldowns.js": "776e5a5c70aafefcf3e15afab02e0a4c21c8cf34e9adeacda507779d25713cd7",
-        "lib/core.js": "7171d548e18eb12fc7f2a489263cb4000ffbdeb708a8f1efca215480d37479b7",
-        "lib/debug.js": "ed5f1d026fa50364dd1dd2464859f010150455fe4c8f71c3bcb2c376f85e525a",
-        "lib/index.js": "dded72ea79f9aa060722e1d904a6e842fbca80315fdbcdf6bdda8fa38f8e96fa",
-        "lib/ping.js": "72685743a006c63a839fdff8f9b448e3e31ccfda534acbd3c1396f5eb4e8e994",
-        "lib/player.js": "49a9921d3f8904da45098617e6960bd72c5aaa7bf8f51f5460333c26ae5f6e80",
-        "lib/require.js": "d8fcd57f21ba1cea3d474688c994804b21676c6a4cb6a9dbc4ed929c79a37dac",
-        "migration.js": "b7479525dd7257af68594063227698a7ab4a752688024368ef5e740b0700a9ed",
-        "module.json": "fe02ca410b0249b0426de9a27d21ffdc11451ac6fc00fc97bda0615c9d389452",
-        "package.json": "f661f14ae53eeae6bdc3f0679f27ce4d336907649eca15eba6725703a01fb0a9"
-	},
-	"defs": {
-		"C_CANCEL_SKILL": 3,
-		"C_CAN_LOCKON_TARGET": 3,
-		"C_HIT_USER_PROJECTILE": 4,
-		"C_NOTIFY_LOCATION_IN_ACTION": 4,
-		"C_NOTIMELINE_SKILL": 3,
-		"C_PLAYER_LOCATION": 5,
-		"C_PRESS_SKILL": 4,
-		"C_REQUEST_GAMESTAT_PING": [
-			1,
-			"raw"
-		],
-		"C_START_COMBO_INSTANT_SKILL": [
-			5,
-			"c_start_instance_skill"
-		],
-		"C_START_INSTANCE_SKILL": [
-			6,
-			"c_start_instance_skill_ex"
-		],
-		"C_START_INSTANCE_SKILL_EX": 5,
-		"C_START_SKILL": [
-			7,
-			"c_press_skill",
-			"c_start_targeted_skill"
-		],
-		"C_START_TARGETED_SKILL": [
-			6,
-			"c_start_combo_instant_skill"
-		],
-		"S_ABNORMALITY_BEGIN": 3,
-		"S_ABNORMALITY_END": 1,
-		"S_ABNORMALITY_REFRESH": 1,
-		"S_ACTION_END": 5,
-		"S_ACTION_STAGE": 9,
-		"S_CANNOT_START_SKILL": 4,
-		"S_CAN_LOCKON_TARGET": 3,
-		"S_CREATURE_LIFE": 3,
-		"S_CREST_APPLY": 2,
-		"S_CREST_MESSAGE": 2,
-		"S_DEFEND_SUCCESS": 3,
-		"S_DESPAWN_PROJECTILE": 2,
-		"S_EACH_SKILL_RESULT": 13,
-		"S_END_USER_PROJECTILE": 4,
-		"S_GRANT_SKILL": 3,
-		"S_INSTANT_DASH": 3,
-		"S_INSTANT_MOVE": 3,
-		"S_LOAD_TOPO": "raw",
-		"S_LOGIN": [
-			"raw",
-			12
-		],
-		"S_MOUNT_VEHICLE": 2,
-		"S_MOUNT_VEHICLE_EX": 1,
-		"S_PLAYER_CHANGE_STAMINA": 1,
-		"S_PLAYER_STAT_UPDATE": 12,
-		"S_RESPONSE_GAMESTAT_PONG": "raw",
-		"S_RETURN_TO_LOBBY": [
-			1,
-			"raw"
-		],
-		"S_SKILL_LIST": 2,
-		"S_SPAWN_ME": [
-			3,
-			"raw"
-		],
-		"S_SPAWN_PROJECTILE": 5,
-		"S_START_COOLTIME_SKILL": 3,
-		"S_START_USER_PROJECTILE": 9,
-		"S_SYSTEM_MESSAGE": 1,
-		"S_UNMOUNT_VEHICLE": 2,
-		"S_UNMOUNT_VEHICLE_EX": 1
-	}
+        "config/abnormalities.js": "1b9fa921f2a697fd6deba3fda70f4ce923a48babb4657c110022c19d4a36dcd4",
+        "config/skills.js": "5df04927a13a274dd661fe6156d27431b0702f10498de441be123532efde42e5",
+        "lib/abnormalities.js": "ca64583e0ffea201077099462a09a922e4889cfa419a88207edcc223341871f5",
+        "lib/commands.js": "e521622f3b92b5ab7eee4489b9862dee955a6d56124256d45ad4943ef91e2b01",
+        "lib/cooldowns.js": "270d56c350b824d6f68195faab90496a2564641530fef52fb8fe896b60d538fa",
+        "lib/core.js": "236ad017a58917ae39625d16712f5b5149d8e31f725996bb7fb941928068cc91",
+        "lib/debug.js": "3b9cd989c0a0464deb0f1bf2656a8a253b02f9d66319c3be67002b2ea660f000",
+        "lib/index.js": "53c5ace3feeee1685f820548de0e3cea2f6d2988af78be3003ea2b96c8c68603",
+        "lib/ping.js": "8edcb263e0d725e5dd5ea4ff469a371b6b7c9e7d4b36ba8181f451843e8dd917",
+        "lib/player.js": "ad4470f66c7b33ccf635db579ae3ce5e6b15f5edac95ebebd545775b5afa7811",
+        "lib/require.js": "d28c77dcca526a09550a21fad52d1a20ddd04048839a137d3675fa30b6762822",
+        "migration.js": "a097f272b51f532d3d171284272f466f9b0d0c6f92f991063de96a3ae5fe381a",
+        "module.json": "468bac8f1e8a5fecf62610f64f0227f256d16b3a8cdd0897caecf1c8e8fbaa60",
+        "package.json": "ee002fd1e6da5aa1c3edbb7d3acc84e6678a354ec45e0c72edfb43862eed6ca1"
+    },
+    "defs": {
+        "C_CANCEL_SKILL": 3,
+        "C_CAN_LOCKON_TARGET": 3,
+        "C_HIT_USER_PROJECTILE": 4,
+        "C_NOTIFY_LOCATION_IN_ACTION": 4,
+        "C_NOTIMELINE_SKILL": 3,
+        "C_PLAYER_LOCATION": 5,
+        "C_PRESS_SKILL": 4,
+        "C_REQUEST_GAMESTAT_PING": [
+            1,
+            "raw"
+        ],
+        "C_START_COMBO_INSTANT_SKILL": [
+            5,
+            "c_start_instance_skill"
+        ],
+        "C_START_INSTANCE_SKILL": [
+            6,
+            "c_start_instance_skill_ex"
+        ],
+        "C_START_INSTANCE_SKILL_EX": 5,
+        "C_START_SKILL": [
+            7,
+            "c_press_skill",
+            "c_start_targeted_skill"
+        ],
+        "C_START_TARGETED_SKILL": [
+            6,
+            "c_start_combo_instant_skill"
+        ],
+        "S_ABNORMALITY_BEGIN": 3,
+        "S_ABNORMALITY_END": 1,
+        "S_ABNORMALITY_REFRESH": 1,
+        "S_ACTION_END": 5,
+        "S_ACTION_STAGE": 9,
+        "S_CANNOT_START_SKILL": 4,
+        "S_CAN_LOCKON_TARGET": 3,
+        "S_CREATURE_LIFE": 3,
+        "S_CREST_APPLY": 2,
+        "S_CREST_MESSAGE": 2,
+        "S_DEFEND_SUCCESS": 3,
+        "S_DESPAWN_PROJECTILE": 2,
+        "S_EACH_SKILL_RESULT": 13,
+        "S_END_USER_PROJECTILE": 4,
+        "S_GRANT_SKILL": 3,
+        "S_INSTANT_DASH": 3,
+        "S_INSTANT_MOVE": 3,
+        "S_LOAD_TOPO": "raw",
+        "S_LOGIN": [
+            "raw",
+            12
+        ],
+        "S_MOUNT_VEHICLE": 2,
+        "S_MOUNT_VEHICLE_EX": 1,
+        "S_PLAYER_CHANGE_STAMINA": 1,
+        "S_PLAYER_STAT_UPDATE": 12,
+        "S_RESPONSE_GAMESTAT_PONG": "raw",
+        "S_RETURN_TO_LOBBY": [
+            1,
+            "raw"
+        ],
+        "S_SKILL_LIST": 2,
+        "S_SPAWN_ME": [
+            3,
+            "raw"
+        ],
+        "S_SPAWN_PROJECTILE": 5,
+        "S_START_COOLTIME_SKILL": 3,
+        "S_START_USER_PROJECTILE": 9,
+        "S_SYSTEM_MESSAGE": 1,
+        "S_UNMOUNT_VEHICLE": 2,
+        "S_UNMOUNT_VEHICLE_EX": 1
+    }
 }
