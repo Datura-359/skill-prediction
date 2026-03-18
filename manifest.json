@@ -22,7 +22,7 @@
         "lib/player.js": "f129a905b261d69ece0a4e44539b485389c993ff00d0e97e95a81f56a38812ed",
         "lib/require.js": "d28c77dcca526a09550a21fad52d1a20ddd04048839a137d3675fa30b6762822",
         "migration.js": "a097f272b51f532d3d171284272f466f9b0d0c6f92f991063de96a3ae5fe381a",
-        "module.json": "468bac8f1e8a5fecf62610f64f0227f256d16b3a8cdd0897caecf1c8e8fbaa60",
+        "module.json": "403c3f85fa0513ee2569d3f8fc4111372b2f1cb1742eb1b62d61670485f0175f",
         "package.json": "ee002fd1e6da5aa1c3edbb7d3acc84e6678a354ec45e0c72edfb43862eed6ca1"
     },
     "defs": {
