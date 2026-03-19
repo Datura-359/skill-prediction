@@ -3,6 +3,25 @@ Simulates skills client-side, eliminating ping-based delays and animation lock.
 
 **Note**: Skill Prediction does **not** reduce your actual ping to the server. If you wish to have lower ping in general, consider renting an optimized gaming VPN such as [Mudfish](https://mudfish.net/), [Pingzapper](https://pingzapper.com/) or [WTFast](https://www.wtfast.com/) or different ones.
 
+This version uses much of the code from [Salty Monkey's Skill Prediction Plugin](https://github.com/SaltyMonkey/skill-prediction) and merges it with skill data from approximately March 2017 provided by [Wallycx's Skill Prediction Plugin](https://github.com/Wallycx/skill-prediction) which would've been around Patch 53.03.01. 
+
+Simulates skills client-side, eliminating ping-based delays and animation lock.
+
+## Current supported class skills
+* Lancer: All besides Charging Lunge, Shield Counter, Master's Leash
+* Brawler: Most besides Rampage, Divine Wrath, Meat Grinder, High Kick, Counterpunch
+* Warrior: Combative Strike, Traverse Cut, Blade Draw, Poison Blade, Scythe, Rain of Blows, Leaping Strike
+* Slayer: All besides Combo Attack, Evasive Roll, Exhausting Blow and Backstab
+* Berserker: Axe Block, Raze, Flatten, Tackle, Staggering Strike, Bloodlust, Dash
+* Sorcerer: Most combat besides Arcane Pulse
+* Archer: Most besides Chase
+* Reaper: All besides Sundering Strike, Cable Step, Soul Reversal
+* Gunner: Blast, Rolling Reload, Burst Fire, Balder's Vengeance, Replenishment, Scattershot, Time Bomb, Point Blank, HB
+* Ninja: Combo Attack, Burning Heart, Leaves on the Wind, Death Blossom, Attunement, Focus
+* Priest: All besides Mana Charge
+* Mystic: All besides Teleport Jaunt, Arun's Vitae, Arun's Tears, Vow of Rebirth
+
+
 ### Troubleshooting
 #### Delayed skills:
 * Disable **[Windows Defender](https://www.windowscentral.com/how-permanently-disable-windows-defender-windows-10)** and **[Windows 10 Game Mode](https://www.windowscentral.com/how-enable-disable-game-mode-windows-10-creators-update)**.

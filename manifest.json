@@ -1,7 +1,7 @@
 {
     "files": {
         "LICENSE": "53927bd0b739d38c87a0a82236fd9b070c2dfff11c0c119be50372005d5047ad",
-        "README.md": "71a39d55a4647ed6876e7d346c511c7e570684fdb9cd796c8970c9860768332a",
+        "README.md": "5701d1ebe2d351fda7ecbdb422ae5c97712436d0d427f03563605a3c9e9c494d",
         "client_data/abnormality.json": "71460d2dd7f883b084749bc42ee48738f4e96797fb8d500fc9bf54ab14b23b63",
         "client_data/ep.json": "fd9467797ac467443ab4e044da8c655c198f6e742d7d67cef5aec44d6c54a50f",
         "client_data/ep_pog.json": "32756d862e8b30a5925952c0f0f8f5ae7f6938b54a8886f89e274dc80508371d",
@@ -10,8 +10,8 @@
         "client_data/polishing.json": "d50a77e5763c40f12e03ce5e47b8ca64ecfc0d8aa8a552e9775764f2e1057016",
         "client_data/skills.json": "7d7d4ff01fa8320193e6ce7e919a0649ab64abb1d464899d3c119154b51e5575",
         "client_data/subPassives.json": "6ad08f8894b4f499ce16801d8072e6923da01834def41c0a9b0f482a48c004a1",
-        "config/abnormalities.js": "1b9fa921f2a697fd6deba3fda70f4ce923a48babb4657c110022c19d4a36dcd4",
-        "config/skills.js": "5df04927a13a274dd661fe6156d27431b0702f10498de441be123532efde42e5",
+        "config/abnormalities.js": "1a92a490e5bcef6ed1a8c0bae13a352c9e82e2dd03a5ba89b20fb1b9332f9228",
+        "config/skills.js": "403817232094d9914bc6721ee323cb51724aaa289032a953e2747dfbe4be3a71",
         "lib/abnormalities.js": "4f58ad8f47485e2cb5bb2957f881fbd397972219f746bf67d3e1d7edabb1d24d",
         "lib/commands.js": "e521622f3b92b5ab7eee4489b9862dee955a6d56124256d45ad4943ef91e2b01",
         "lib/cooldowns.js": "270d56c350b824d6f68195faab90496a2564641530fef52fb8fe896b60d538fa",
