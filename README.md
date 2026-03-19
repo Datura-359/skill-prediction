@@ -1,13 +1,27 @@
+# THIS VERSION HAS NOT BEEN FULLY TESTED AGAINST ALL SKILLS IN 46.05
+There are several skills that do not have definitions, or have invalid definitions. Additional work is required to ensure that skills.js is updated with valid definitons of skills.  Most definitions are from around the time of patch 53.03.01 during which time there were several changes to skills.
+
+Invalid definitions can cause the game to crash, hang, or just appear to act weird.
+If you encounter problems with a skill, please submit an issue.
+
+
 ## Datura's Skill Prediction Fork for TERA 46.05
+
+This version uses much of the code from [Salty Monkey's Skill Prediction Plugin](https://github.com/SaltyMonkey/skill-prediction) and merges it with skill data from approximately March 2017 provided by [Wallycx's Skill Prediction Plugin](https://github.com/Wallycx/skill-prediction).
+
 Simulates skills client-side, eliminating ping-based delays and animation lock.
 
 **Note**: Skill Prediction does **not** reduce your actual ping to the server. If you wish to have lower ping in general, consider renting an optimized gaming VPN such as [Mudfish](https://mudfish.net/), [Pingzapper](https://pingzapper.com/) or [WTFast](https://www.wtfast.com/) or different ones.
 
-This version uses much of the code from [Salty Monkey's Skill Prediction Plugin](https://github.com/SaltyMonkey/skill-prediction) and merges it with skill data from approximately March 2017 provided by [Wallycx's Skill Prediction Plugin](https://github.com/Wallycx/skill-prediction) which would've been around Patch 53.03.01. 
+## Manual Installation Instructions
+1. In TERA Toolbox, click "My Mods"
+2. Click "Show Mods Folder".
+3. Create a folder named "Skill-Prediction-46.05"
+4. Place the "module.json" file in this repository into the folder.
+5. Close and Relaunch TERA Toolbox.
+6. This version of Skill-Prediction will be downloaded automatically by TERA Toolbox and started when you click the "Start" button within TERA Toolbox.
 
-Simulates skills client-side, eliminating ping-based delays and animation lock.
-
-## Current supported class skills
+## Skills indicated working with original release of Skill Prediction (Not necessarily working with this version)
 * Lancer: All besides Charging Lunge, Shield Counter, Master's Leash
 * Brawler: Most besides Rampage, Divine Wrath, Meat Grinder, High Kick, Counterpunch
 * Warrior: Combative Strike, Traverse Cut, Blade Draw, Poison Blade, Scythe, Rain of Blows, Leaping Strike
@@ -23,6 +37,10 @@ Simulates skills client-side, eliminating ping-based delays and animation lock.
 
 
 ### Troubleshooting
+#### Crashing / Hanging of Game when using a particular skill:
+* This is caused by an invalid definiton for a skill.  Disable the mod in TERA Toolbox to be able to use this skill and submit an issue on this repo.
+#### Odd Skill Animation/Behaviour
+* Likely a skill that has an invalid definition. You should be able to continue playing if the game doesn't crash.  Submit an issue on this repo.
 #### Delayed skills:
 * Disable **[Windows Defender](https://www.windowscentral.com/how-permanently-disable-windows-defender-windows-10)** and **[Windows 10 Game Mode](https://www.windowscentral.com/how-enable-disable-game-mode-windows-10-creators-update)**.
 * Bank or delete any **Noctenium Infusion** in your inventory (even if you aren't using it).
